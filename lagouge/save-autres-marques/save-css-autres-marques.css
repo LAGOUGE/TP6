@@ -1,0 +1,36 @@
+.motos-list.trail{
+    display: flex grid;
+    flex: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.motos-list.sportive{
+    display: flex grid;
+    flex: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.vehicule-card {
+    width: 250px;
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.vehicule-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.vehicule-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}

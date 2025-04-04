@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTM - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/KTM-Logo.png" alt="KTM Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="motos.html">Moto</a></li>
+                <li><a href="accessoire.html">Accessoire</a></li>
+                <li><a href="https://www.ktm.com/fr-fr/service.html">Service</a></li>
+                <li><a href="https://www.ktm.com/fr-fr/contact.html">Contact</a></li>
+                <li><a href="autres.marques.html">autres marques</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenue sur le site officiel de KTM</h1>
+        <p>Découvrez notre univers de motos, accessoires, et services.</p>
+    </section>
+
+    <section class="cta">
+        <h2>Explorez nos produits</h2>
+        <p><a href="https://www.ktm.com/fr-fr.html">Découvrez  nos motos</a> | <a href="https://www.ktm.com/fr-fr/parts---wear/powerwear-collections.html">Nos accessoires</a> | <a href="https://www.ktm.com/fr-fr/service/mobility-service.html">Nos services</a></p>
+    </section>
+
+
+    <form method="get">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="nom">Quel est votre nom?</label>
+            <input type="text" name="nom" id="nom">
+            <label for="prenom">Quel est votre prénom ?</label>
+            <input type="text" name="prenom" id="prenom">
+            <label for="email">Quel est votre e-mail ?</label>
+            <input type="email" name="email" id="email" required>
+        </fieldset>
+
+        <fieldset>
+                <legend>Contactez-nous</legend> 
+                <p>
+                   Comment nous contactez?
+                   <input type="radio" name="souhait" value="riche" id="riche"> <label for="riche">Par téléphone</label>
+                   <input type="radio" name="souhait" value="celebre" id="celebre" > <label for="celebre">Par mail </label>
+                   <input type="radio" name="souhait" value="intelligent" id="intelligent"> <label for="intelligent">Par message</label>
+                </p>
+        
+                <p>
+                   <label for="precisions">Expliquer votre raison de nous contacter:</label>
+                   <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+                </p>
+                <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
