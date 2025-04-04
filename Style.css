@@ -1,0 +1,79 @@
+h1 {
+    color: Gray;
+    text-align: center;
+    font-family: 'Arial black';
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encadrement général de la page */
+
+
+.repertoire {
+    border: 2px solid #2196F3;  /* Bordure bleue */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e3f2fd;  /* Fond bleu clair */
+}
+
+.repertoire h2 {
+    margin: 0 0 10px 0;
+    color: #0d47a1;  /* Couleur du titre */
+}
+
+/* Encadrer le tableau */
+.tableau {
+    border: 2px solid #FFC107;  /* Bordure jaune */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #fff8e1;  /* Fond jaune clair */
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+
+
+th {
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sous-repertoires {
+    border: 2px solid #2196F3;  /* Bordure bleue */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e3f2fd;  /* Fond bleu clair */
+}
+
+
+.sous-repertoire {
+    border: 2px solid #2196F3;  /* Bordure bleue */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e3f2fd;  /* Fond bleu clair */
+}
+
+
+
